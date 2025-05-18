@@ -1,4 +1,3 @@
 aku bikin portofolio
 
-![Uploading Dessi-Puspita-Sari-Portfolio-05-18-2025_05_01_AM.png…]()
-
+![portofolio](https://github.com/user-attachments/assets/a974b300-1fbb-431e-b63e-13d2f8099349)
