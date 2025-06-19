@@ -94,10 +94,9 @@ section {
 
 .button:hover {
     background-color: #fba6cb;
-    transform: scale(1.05);
 }
 
-.operation, .all-clear, .last-entity, .equal {
+.operation, .all-clear, .last-entity-clear, .equal {
     background: #f58ab5;
 }
 
