@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Comic Sans MS", "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #fff0f5;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #d46a92;
+}
+
+section {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #ffe0ec;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding: 10px;
+}
+
+.display {
+    background-color: #fff7fb;
+    height: 120px;
+    width: 100%;
+    text-align: right;
+    font-size: 32px;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.display-history {
+    opacity: 0.5;
+    font-size: 18px;
+    color: #b88ca4;
+}
+
+.display-input {
+    font-size: 32px;
+    color: #333;
+}
+
+.temp-result {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 18px;
+    opacity: 0.4;
+    color: #999;
+}
+
+.all_button {
+    color: whitesmoke;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.button {
+    background-color: #f8badb;
+    border: none;
+    border-radius: 15px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.button:hover {
+    background-color: #fba6cb;
+    transform: scale(1.05);
+}
+
+.operation, .all-clear, .last-entity, .equal {
+    background: #f58ab5;
+}
+
+.btn-0 {
+    grid-column: 1/3;
+}
