@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        }
+
+        body {
+            background-image: url(animek-Pica.png);
+            background-size: cover;
+            overflow: hidden;
+        }
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            z-index: 10; /* di atas canvas */
+            color: white;
+            font-size: 24px;
+            font-family: sans-serif;
+            background-color: rgba(0, 0, 0, 0.3); 
+            padding: 10px;
+            border-radius: 10px;
+            z-index: 0;
+            width:30%;
+            height: 80%;
+        }
+        p{
+            font-size: 15px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <canvas></canvas>
+    <div class="overlay">
+        <h3 style="text-align: center;">Bintang tanpa akhir</h3 style="text-align: center;">
+        
+        <p>...</p>
+        <p>menatap langit biru yang terus pudar</p>
+        <p>kilau jauh disana</p>
+        <p>ku ingin menggapainya</p>
+        <p>.....</p>
+        <p>tanpa kuduga kini ku berada</p>
+        <p>
+            Di antara bunga-bunga <br>
+            Tempat yang ku dambakan <br>
+            Melewati bintang-bintang angkasa<br>
+            Terpisahkan ku dari semua orang<br>
+            Yang ku cinta ~~<br>
+            ... <br>
+            Tetapi ku dapat berdiri lagi<br>
+            Subete wo norikoete<br>
+            Tada saki dake wo mite<br>
+            ... <br>
+            Biru muda mewarnai langit<br>
+            Sono na wa "chikyuu" da to<br>
+            Seperti yang diceritakan dulu<br>
+            Mukashi banashi no you ni<br>
+            Ku panjatkan harapan<br>
+            Sou, itsuka ano hoshi ni todoke<br>
+            Suatu saat nantinya pasti<br>
+            ...... <br>
+            Mata aeru to I believe<br>
+        </p>
+    </div>
+
+    <script>
+        let canvas = document.querySelector('canvas');
+        let context = canvas.getContext('2d');
+        let w = window.innerWidth;
+        let h = window.innerHeight;
+        canvas.width = w;
+        canvas.height = h;
+        
+        let num = 200;
+        let snows = [];
+        
+        for (let i = 0; i < num; i++) {
+            snows.push({
+                x: Math.random() * w,
+                y: Math.random() * h,
+                r: Math.random() * 5 + 1
+            });
+        }
+        
+        let move = () => {
+            for (let i = 0; i < num; i++) {
+                let snow = snows[i];
+                snow.x += Math.random() * 2 + 1;
+                snow.y += Math.random() * 2 + 1;
+                if (snow.x > w) {
+                    snow.x = 0;
+                }
+                if (snow.y > h) {
+                    snow.y = 0;
+                }
+            }
+        };
+        
+        let draw = () => {
+            context.clearRect(0, 0, w, h);
+            context.beginPath();
+            context.fillStyle = 'rgb(255,255,255)';
+            context.shadowColor = 'rgb(255,255,255)';
+            context.shadowBlur = 10;
+        
+            for (let i = 0; i < num; i++) {
+                let snow = snows[i];
+                context.moveTo(snow.x, snow.y);
+                context.arc(snow.x, snow.y, snow.r, 0, Math.PI * 2);
+            }
+            context.fill();
+            context.closePath();
+        };
+        
+        setInterval(() => {
+            move();
+            draw();
+        }, 20);
+
+
+
+    </script>
+</body>
+</html>
