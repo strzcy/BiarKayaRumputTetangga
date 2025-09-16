@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Nexus - Futuristic Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav style="text-align: center; justify-content: center; align-items: center;" class="nav-container">
+        <div style="text-align: center; justify-content: center; align-items: center;" class="nav-brand">
+            <span style="text-align: center; justify-content: center; align-items: center;" class="brand-text">PROJECT NEXUS</span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">INNOVATIVE</span>
+                    <span class="title-line">PROJECTS</span>
+                    <span class="title-line accent-text">SHOWCASE</span>
+                </h1>
+                <p class="hero-subtitle">Exploring the boundaries of technology and creativity</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('projects')">
+                        <span>Explore Projects</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('timeline')">
+                        <span>View Timeline</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hologram-container">
+                    <div class="hologram-ring ring-1"></div>
+                    <div class="hologram-ring ring-2"></div>
+                    <div class="hologram-ring ring-3"></div>
+                    <div class="hologram-core"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A collection of innovative solutions and creative experiments</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-image">
+                                <div class="project-placeholder">
+                                    <div class="placeholder-icon">🌐</div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">E-Commerce Platform</h3>
+                                <p class="project-tech">React • Node.js • MongoDB</p>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="project-details">
+                                <h3>E-Commerce Platform</h3>
+                                <p>A full-stack e-commerce solution with advanced features including real-time inventory, payment processing, and analytics dashboard.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">Live Demo</a>
+                                    <a href="#" class="project-link">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-image">
+                                <div class="project-placeholder">
+                                    <div class="placeholder-icon">📱</div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">AI Task Manager</h3>
+                                <p class="project-tech">React Native • Python • TensorFlow</p>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="project-details">
+                                <h3>AI Task Manager</h3>
+                                <p>An intelligent task management app that uses machine learning to predict task priorities and optimize scheduling.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">Live Demo</a>
+                                    <a href="#" class="project-link">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ai">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-image">
+                                <div class="project-placeholder">
+                                    <div class="placeholder-icon">🤖</div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">Neural Network Visualizer</h3>
+                                <p class="project-tech">Python • D3.js • WebGL</p>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="project-details">
+                                <h3>Neural Network Visualizer</h3>
+                                <p>Interactive visualization tool for understanding neural network architectures and training processes in real-time.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">Live Demo</a>
+                                    <a href="#" class="project-link">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-image">
+                                <div class="project-placeholder">
+                                    <div class="placeholder-icon">🎮</div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">3D Web Game</h3>
+                                <p class="project-tech">Three.js • WebGL • Socket.io</p>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="project-details">
+                                <h3>3D Web Game</h3>
+                                <p>Multiplayer 3D game built entirely in the browser using WebGL, featuring real-time physics and networking.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">Live Demo</a>
+                                    <a href="#" class="project-link">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="blockchain">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-image">
+                                <div class="project-placeholder">
+                                    <div class="placeholder-icon">⛓️</div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">DeFi Dashboard</h3>
+                                <p class="project-tech">Solidity • Web3.js • React</p>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="project-details">
+                                <h3>DeFi Dashboard</h3>
+                                <p>Comprehensive DeFi portfolio tracker with yield farming analytics and automated trading strategies.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">Live Demo</a>
+                                    <a href="#" class="project-link">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="iot">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-image">
+                                <div class="project-placeholder">
+                                    <div class="placeholder-icon">🏠</div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">Smart Home System</h3>
+                                <p class="project-tech">Arduino • Raspberry Pi • MQTT</p>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="project-details">
+                                <h3>Smart Home System</h3>
+                                <p>Complete IoT home automation system with voice control, energy monitoring, and predictive maintenance.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">Live Demo</a>
+                                    <a href="#" class="project-link">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-text">PROJECT NEXUS</span>
+                    <p>Pushing the boundaries of innovation</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projects</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Project Nexus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
