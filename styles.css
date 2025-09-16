@@ -509,7 +509,7 @@ body {
     height: 60%;
     background: var(--background-light);
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     position: relative;
     overflow: hidden;
