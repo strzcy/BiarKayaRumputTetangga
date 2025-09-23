@@ -376,6 +376,8 @@ window.utils = {
             t--;
             return -c / 2 * (t * (t - 2) - 1) + b;
         }
+
+        echo
         
         requestAnimationFrame(animation);
     }
