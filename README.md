@@ -1,2 +1,2 @@
-apa ya redmi apa
+apa ya redmi apa \n
 gatau men
