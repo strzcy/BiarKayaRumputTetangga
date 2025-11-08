@@ -6,3 +6,4 @@ kngn DYA<br>
 muah <br>
 ihhhh anjir coy aku wa dia <br>
 aku puji dia tumuch ya <br>
+xixi
