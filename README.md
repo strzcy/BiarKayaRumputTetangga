@@ -8,4 +8,5 @@ muah <br>
 ihhhh anjir coy aku wa dia <br>
 aku puji dia tumuch ya <br>
 xixi
-pst dia kpikiran mulu ak zan zan mulu wkwkkw
+pst dia kpikiran mulu ak zan zan mulu <br>
+ya ga?
