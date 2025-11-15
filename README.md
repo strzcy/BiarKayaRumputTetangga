@@ -12,3 +12,5 @@ xixi
 pst dia kpikiran mulu ak zan zan mulu <br>
 ya ga?<br>
 bingung ey 
+marah ggr dipanggil nama panggilan
+giliran ak yg manggil gaperna ditegor tuuu
