@@ -11,6 +11,8 @@ aku puji dia tumuch ya <br>
 xixi
 pst dia kpikiran mulu ak zan zan mulu <br>
 ya ga?<br>
-bingung ey 
-marah ggr dipanggil nama panggilan
-giliran ak yg manggil gaperna ditegor tuuu
+bingung ey <br>
+marah ggr dipanggil nama panggilan <br>
+giliran ak yg manggil gaperna ditegor tuuu <br>
+padahal tiap orang manggil dia langsung nyeletuk "ko pada manggil itu sih, kan nama gua ..." <br>
+ 
