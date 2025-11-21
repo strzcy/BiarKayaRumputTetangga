@@ -17,4 +17,5 @@ bingung ey <br>
 marah ggr dipanggil nama panggilan <br>
 giliran ak yg manggil gaperna ditegor tuuu <br>
 padahal tiap orang manggil dia langsung nyeletuk "ko pada manggil itu sih, kan nama gua ..." <br>
+ehh ps aku manggil aman aja tu
  
