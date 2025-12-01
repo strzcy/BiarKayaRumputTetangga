@@ -1,8 +1,4 @@
 
-
-
-
-rr
 lala
 la
 aku puji dia tumuch ya <br>
