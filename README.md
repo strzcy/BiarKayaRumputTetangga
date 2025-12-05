@@ -1,4 +1,3 @@
-
 aku puji dia tumuch ya <br>
 xixi
 pst dia kpikiran mulu ak zan zan mulu <br>
