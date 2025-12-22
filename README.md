@@ -4,8 +4,7 @@ apa ya redmi apa <br>
 gatau men <br>
 ihh men xampp ak rusax lagi ah capek puxi<br>
 kngn DYA<br>
-
-ihhhh anjir coy aku wa dia <br>
+hhhh anjir coy aku wa dia <br>
 ya ga?<br>
 bingung ey <br>
 marah ggr dipanggil nama panggilan <br>
