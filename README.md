@@ -1,1 +1,1 @@
-apanya rumput tetangga, ni ma cuma commit di readme :>
+wkwkw, biarin aja, biar ijo doank, pas dibuka eh gd isi jir wkwkkw
